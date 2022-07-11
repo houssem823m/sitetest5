@@ -1,0 +1,76 @@
+.headd{
+    scroll-behavior: smooth;
+}
+.btnp{
+    background-color: rgb(78, 161, 235);
+    text-decoration: solid;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: large;
+}
+.navbar{
+    background-color: blueviolet;
+    position: sticky;
+    display: flex;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 80px;
+    
+}
+
+.aboutme{
+    margin-top: 180px;
+
+}
+.imgme{
+    margin-left: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    border-radius: 10px;
+}
+
+.h2aboutme{
+    margin-top: 80px;
+    margin-right: 650px;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.paragraph{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.icon{
+    margin-right: 30px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  /*dding: 2em;*/
+}
+
+.foot{
+    margin-top: 100px;
+}
+

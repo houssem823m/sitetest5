@@ -1,0 +1,36 @@
+
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+}
+
+
+.signupblock{
+  text-align: center;
+  margin-top: 120px;
+}
+.email{
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+
+.btnsubmit{
+  margin-top: 35px;
+  padding: 10px;
+  background-color: rgb(13, 214, 13);
+}
+
+a{
+  text-decoration: none;
+}
+
+
